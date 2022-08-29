@@ -1,0 +1,137 @@
+:root{
+    --primary-color: #F2C94C;
+    --grey-black: #333333;
+}
+
+body{
+    font-family: 'Kalam', cursive;
+    color: var(--grey-black);
+    margin: auto;
+}
+
+
+nav{
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: xx-large;
+    margin: 0rem;
+    height: 8vh;
+    display: block;
+    padding: 1.5rem 0rem 0.5rem;
+    
+}
+
+footer{
+    position: fixed;bottom: 0;right: 0; left: 0;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+footer .div1{
+    font-size: x-large;
+    padding: 0.8rem 0rem 0.5rem;
+}
+
+footer p{
+    max-width: 650px;
+    margin: auto;
+    font-size: large;
+    padding: 0rem 0.5rem 0.5rem 0.5rem;
+    display: block;
+}
+
+.hero{
+    float: right;
+    margin-right: 3rem;
+}
+
+.text-input{
+    display: block;
+    width: 45%;
+    margin: 3rem 5rem 1rem 9rem;
+    font-family: inherit;
+    font-size: large;
+    height: 10rem;
+
+}
+
+.declaration{
+    margin: 0rem 5rem 1rem 9rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.output{
+    height: 10rem;
+    display: block;
+    width: 45%;
+    margin: 0rem 5rem 3rem 9rem;
+    font-family: inherit;
+    font-size: large;
+    border: 1px solid black;
+
+}
+
+#btn-translate{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin: 0rem 5rem 1rem 9rem;
+    font-family: inherit;
+    font-size: large;
+    border: 0rem;
+}
+
+@media(max-width: 600px){
+
+    nav{
+        background-color: var(--primary-color);
+        text-align: center;
+        font-size: xx-large;
+        margin: 0rem;
+        height: 5vh;
+        display: block;
+        padding: 1rem 0rem 1rem;
+        
+    }
+    .hero{
+        margin: auto;
+        /* margin: 0rem 2rem 0rem 3rem; */
+        width: 65%;
+    }
+
+    .text-input{
+        display: block;
+        width: 90%;
+        margin: 0rem 1rem 1rem 1rem;
+        font-family: inherit;
+        font-size: large;
+        height: 8rem;
+    }
+
+    .declaration{
+        margin: 1rem 1rem 1rem 1rem;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+
+
+    #btn-translate{
+        background-color: var(--primary-color);
+        padding: 0.8rem;
+        margin: 0rem 1rem 1rem;
+        font-family: inherit;
+        font-size: large;
+        border: 0rem;
+    }
+    .output{
+        height: 7rem;
+        display: block;
+        width: 90%;
+        margin: 0rem 1rem 2rem 1rem;
+        font-family: inherit;
+        font-size: large;
+        border: 1px solid black;
+    
+    }
+
+    
+};
