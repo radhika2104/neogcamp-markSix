@@ -68,6 +68,7 @@ footer p{
     font-family: inherit;
     font-size: large;
     border: 1px solid black;
+    overflow: auto;
 
 }
 
@@ -130,7 +131,7 @@ footer p{
         font-family: inherit;
         font-size: large;
         border: 1px solid black;
-    
+        overflow: auto;
     }
 
     

@@ -2,6 +2,9 @@ var translateBtn = document.querySelector('#btn-translate');
 var textinput = document.querySelector('textarea');
 var outputarea = document.querySelector('#output');
 
+// Use Mock API for testing otherwise rate limit issue
+// var serviceURL = 'https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json';
+
 var serviceURL = 'https://api.funtranslations.com/translate/minion.json';
 
 function constructURL(textinput){
