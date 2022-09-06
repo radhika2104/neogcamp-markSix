@@ -7,6 +7,9 @@ body{
     font-family: 'Kalam', cursive;
     color: var(--grey-black);
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
@@ -22,7 +25,8 @@ nav{
 }
 
 footer{
-    position: fixed;bottom: 0;right: 0; left: 0;
+    margin-top: auto;
+    margin-bottom: 0px;
     background-color: var(--primary-color);
     text-align: center;
 }
